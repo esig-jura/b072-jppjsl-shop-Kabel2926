@@ -13,9 +13,8 @@ import { RouterLink } from 'vue-router'
     </a>
     <nav>
       <ul>
-        <li><router-link class="active" to="/">Accueil</router-link></li>
-        <li><router-link to="/service-client">Service Client</router-link></li>
-        <li><router-link to="/sabre/1">Fiche du sabre</router-link></li>
+        <li><router-link active-class="actif" to="/">Nos sabres</router-link></li>
+        <li><router-link active-class="actif" to="/service-client">Service Client</router-link></li>
       </ul>
     </nav>
   </header>
