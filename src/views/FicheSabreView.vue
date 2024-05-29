@@ -1,6 +1,6 @@
 <script setup>
 
-import SabreLaser from '@/components/SabreLaser.vue'
+
 
 const props = defineProps({
   id: {
